@@ -277,7 +277,12 @@
    }
 
    .pilihan .ok a{
+      display: flex;
+      justify-content: center;
+      align-items: center;
       text-decoration: none;
       color: black;
+      width: 70px;
+      height: 30px;
    }
 </style>

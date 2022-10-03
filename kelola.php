@@ -33,7 +33,7 @@ try{
 
    $connection = null;
 
-   header("location: index.php");
+   header("location: main.php");
    exit();
 }catch(PDOException $exception){
    echo "Eror dengan pesan : " . $exception->getMessage();
